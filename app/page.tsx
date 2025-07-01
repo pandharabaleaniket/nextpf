@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <>
@@ -8,6 +10,7 @@ export default function Home() {
         illo, repellendus expedita, facilis architecto porro quidem esse
         consequatur reiciendis rerum maxime!
       </p>
+      <Button>Click me</Button>
     </>
   );
 }
