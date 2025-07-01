@@ -39,6 +39,57 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  
+  /* Custom Blue Theme Colors */
+  --color-federal-blue-100: var(--federal-blue-100);
+  --color-federal-blue-200: var(--federal-blue-200);
+  --color-federal-blue-300: var(--federal-blue-300);
+  --color-federal-blue-400: var(--federal-blue-400);
+  --color-federal-blue-500: var(--federal-blue-500);
+  --color-federal-blue-600: var(--federal-blue-600);
+  --color-federal-blue-700: var(--federal-blue-700);
+  --color-federal-blue-800: var(--federal-blue-800);
+  --color-federal-blue-900: var(--federal-blue-900);
+  
+  --color-honolulu-blue-100: var(--honolulu-blue-100);
+  --color-honolulu-blue-200: var(--honolulu-blue-200);
+  --color-honolulu-blue-300: var(--honolulu-blue-300);
+  --color-honolulu-blue-400: var(--honolulu-blue-400);
+  --color-honolulu-blue-500: var(--honolulu-blue-500);
+  --color-honolulu-blue-600: var(--honolulu-blue-600);
+  --color-honolulu-blue-700: var(--honolulu-blue-700);
+  --color-honolulu-blue-800: var(--honolulu-blue-800);
+  --color-honolulu-blue-900: var(--honolulu-blue-900);
+  
+  --color-pacific-cyan-100: var(--pacific-cyan-100);
+  --color-pacific-cyan-200: var(--pacific-cyan-200);
+  --color-pacific-cyan-300: var(--pacific-cyan-300);
+  --color-pacific-cyan-400: var(--pacific-cyan-400);
+  --color-pacific-cyan-500: var(--pacific-cyan-500);
+  --color-pacific-cyan-600: var(--pacific-cyan-600);
+  --color-pacific-cyan-700: var(--pacific-cyan-700);
+  --color-pacific-cyan-800: var(--pacific-cyan-800);
+  --color-pacific-cyan-900: var(--pacific-cyan-900);
+  
+  --color-non-photo-blue-100: var(--non-photo-blue-100);
+  --color-non-photo-blue-200: var(--non-photo-blue-200);
+  --color-non-photo-blue-300: var(--non-photo-blue-300);
+  --color-non-photo-blue-400: var(--non-photo-blue-400);
+  --color-non-photo-blue-500: var(--non-photo-blue-500);
+  --color-non-photo-blue-600: var(--non-photo-blue-600);
+  --color-non-photo-blue-700: var(--non-photo-blue-700);
+  --color-non-photo-blue-800: var(--non-photo-blue-800);
+  --color-non-photo-blue-900: var(--non-photo-blue-900);
+  
+  --color-light-cyan-100: var(--light-cyan-100);
+  --color-light-cyan-200: var(--light-cyan-200);
+  --color-light-cyan-300: var(--light-cyan-300);
+  --color-light-cyan-400: var(--light-cyan-400);
+  --color-light-cyan-500: var(--light-cyan-500);
+  --color-light-cyan-600: var(--light-cyan-600);
+  --color-light-cyan-700: var(--light-cyan-700);
+  --color-light-cyan-800: var(--light-cyan-800);
+  --color-light-cyan-900: var(--light-cyan-900);
 }
 
 :root {
@@ -74,6 +125,61 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+  
+  /* Federal Blue - Deep navy blue palette */
+  --federal-blue-100: oklch(0.098 0.024 264.695); /* #010113 */
+  --federal-blue-200: oklch(0.125 0.048 264.695); /* #010226 */
+  --federal-blue-300: oklch(0.152 0.072 264.695); /* #020338 */
+  --federal-blue-400: oklch(0.179 0.096 264.695); /* #02044b */
+  --federal-blue-500: oklch(0.206 0.120 264.695); /* #03045e */
+  --federal-blue-600: oklch(0.350 0.180 264.695); /* #0508ae */
+  --federal-blue-700: oklch(0.450 0.240 264.695); /* #0f12f8 */
+  --federal-blue-800: oklch(0.650 0.180 264.695); /* #5f61fa */
+  --federal-blue-900: oklch(0.800 0.120 264.695); /* #afb0fd */
+  
+  /* Honolulu Blue - Ocean blue palette */
+  --honolulu-blue-100: oklch(0.120 0.040 220.000); /* #001825 */
+  --honolulu-blue-200: oklch(0.200 0.080 220.000); /* #003049 */
+  --honolulu-blue-300: oklch(0.300 0.120 220.000); /* #00486e */
+  --honolulu-blue-400: oklch(0.400 0.160 220.000); /* #005f93 */
+  --honolulu-blue-500: oklch(0.500 0.200 220.000); /* #0077b6 */
+  --honolulu-blue-600: oklch(0.650 0.180 220.000); /* #00a2f9 */
+  --honolulu-blue-700: oklch(0.750 0.160 220.000); /* #3bbaff */
+  --honolulu-blue-800: oklch(0.820 0.120 220.000); /* #7cd1ff */
+  --honolulu-blue-900: oklch(0.890 0.080 220.000); /* #bee8ff */
+  
+  /* Pacific Cyan - Bright cyan palette */
+  --pacific-cyan-100: oklch(0.150 0.060 200.000); /* #00242b */
+  --pacific-cyan-200: oklch(0.280 0.120 200.000); /* #004756 */
+  --pacific-cyan-300: oklch(0.420 0.180 200.000); /* #006b81 */
+  --pacific-cyan-400: oklch(0.560 0.240 200.000); /* #008fab */
+  --pacific-cyan-500: oklch(0.700 0.300 200.000); /* #00b4d8 */
+  --pacific-cyan-600: oklch(0.780 0.280 200.000); /* #12d8ff */
+  --pacific-cyan-700: oklch(0.840 0.240 200.000); /* #4ee1ff */
+  --pacific-cyan-800: oklch(0.880 0.200 200.000); /* #89ebff */
+  --pacific-cyan-900: oklch(0.920 0.160 200.000); /* #c4f5ff */
+  
+  /* Non Photo Blue - Light blue palette */
+  --non-photo-blue-100: oklch(0.250 0.080 200.000); /* #0a3a43 */
+  --non-photo-blue-200: oklch(0.450 0.160 200.000); /* #137586 */
+  --non-photo-blue-300: oklch(0.650 0.240 200.000); /* #1dafc9 */
+  --non-photo-blue-400: oklch(0.750 0.200 200.000); /* #4ccfe6 */
+  --non-photo-blue-500: oklch(0.850 0.160 200.000); /* #90e0ef */
+  --non-photo-blue-600: oklch(0.880 0.140 200.000); /* #a6e7f2 */
+  --non-photo-blue-700: oklch(0.910 0.120 200.000); /* #bcedf5 */
+  --non-photo-blue-800: oklch(0.940 0.100 200.000); /* #d2f3f9 */
+  --non-photo-blue-900: oklch(0.970 0.080 200.000); /* #e9f9fc */
+  
+  /* Light Cyan - Very light cyan palette */
+  --light-cyan-100: oklch(0.280 0.100 200.000); /* #0a444f */
+  --light-cyan-200: oklch(0.520 0.200 200.000); /* #15889f */
+  --light-cyan-300: oklch(0.720 0.280 200.000); /* #2ac4e3 */
+  --light-cyan-400: oklch(0.820 0.240 200.000); /* #79daee */
+  --light-cyan-500: oklch(0.920 0.200 200.000); /* #caf0f8 */
+  --light-cyan-600: oklch(0.940 0.180 200.000); /* #d4f3f9 */
+  --light-cyan-700: oklch(0.960 0.160 200.000); /* #dff6fb */
+  --light-cyan-800: oklch(0.980 0.140 200.000); /* #e9f9fc */
+  --light-cyan-900: oklch(0.990 0.120 200.000); /* #f4fcfe */
 }
 
 .dark {
@@ -108,6 +214,61 @@
   --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.551 0.027 264.364);
+  
+  /* Federal Blue - Dark mode adjustments */
+  --federal-blue-100: oklch(0.800 0.120 264.695); /* Lighter in dark mode */
+  --federal-blue-200: oklch(0.750 0.110 264.695);
+  --federal-blue-300: oklch(0.700 0.100 264.695);
+  --federal-blue-400: oklch(0.650 0.090 264.695);
+  --federal-blue-500: oklch(0.600 0.080 264.695);
+  --federal-blue-600: oklch(0.450 0.180 264.695);
+  --federal-blue-700: oklch(0.350 0.240 264.695);
+  --federal-blue-800: oklch(0.250 0.180 264.695);
+  --federal-blue-900: oklch(0.150 0.120 264.695); /* Darker in dark mode */
+  
+  /* Honolulu Blue - Dark mode adjustments */
+  --honolulu-blue-100: oklch(0.890 0.080 220.000);
+  --honolulu-blue-200: oklch(0.820 0.120 220.000);
+  --honolulu-blue-300: oklch(0.750 0.160 220.000);
+  --honolulu-blue-400: oklch(0.650 0.180 220.000);
+  --honolulu-blue-500: oklch(0.550 0.200 220.000);
+  --honolulu-blue-600: oklch(0.450 0.180 220.000);
+  --honolulu-blue-700: oklch(0.350 0.160 220.000);
+  --honolulu-blue-800: oklch(0.250 0.120 220.000);
+  --honolulu-blue-900: oklch(0.150 0.080 220.000);
+  
+  /* Pacific Cyan - Dark mode adjustments */
+  --pacific-cyan-100: oklch(0.920 0.160 200.000);
+  --pacific-cyan-200: oklch(0.880 0.200 200.000);
+  --pacific-cyan-300: oklch(0.840 0.240 200.000);
+  --pacific-cyan-400: oklch(0.780 0.280 200.000);
+  --pacific-cyan-500: oklch(0.700 0.300 200.000);
+  --pacific-cyan-600: oklch(0.560 0.240 200.000);
+  --pacific-cyan-700: oklch(0.420 0.180 200.000);
+  --pacific-cyan-800: oklch(0.280 0.120 200.000);
+  --pacific-cyan-900: oklch(0.150 0.060 200.000);
+  
+  /* Non Photo Blue - Dark mode adjustments */
+  --non-photo-blue-100: oklch(0.970 0.080 200.000);
+  --non-photo-blue-200: oklch(0.940 0.100 200.000);
+  --non-photo-blue-300: oklch(0.910 0.120 200.000);
+  --non-photo-blue-400: oklch(0.880 0.140 200.000);
+  --non-photo-blue-500: oklch(0.850 0.160 200.000);
+  --non-photo-blue-600: oklch(0.750 0.200 200.000);
+  --non-photo-blue-700: oklch(0.650 0.240 200.000);
+  --non-photo-blue-800: oklch(0.450 0.160 200.000);
+  --non-photo-blue-900: oklch(0.250 0.080 200.000);
+  
+  /* Light Cyan - Dark mode adjustments */
+  --light-cyan-100: oklch(0.990 0.120 200.000);
+  --light-cyan-200: oklch(0.980 0.140 200.000);
+  --light-cyan-300: oklch(0.960 0.160 200.000);
+  --light-cyan-400: oklch(0.940 0.180 200.000);
+  --light-cyan-500: oklch(0.920 0.200 200.000);
+  --light-cyan-600: oklch(0.820 0.240 200.000);
+  --light-cyan-700: oklch(0.720 0.280 200.000);
+  --light-cyan-800: oklch(0.520 0.200 200.000);
+  --light-cyan-900: oklch(0.280 0.100 200.000);
 }
 
 @layer base {
