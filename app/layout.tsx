@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Layout, LayoutErrorBoundary } from "@/components/layout/layout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NextPF",
-  description: "demo for Next.js with Progressive Features",
+  title: "NextPF - Modern Web Application",
+  description: "A modern web application with progressive features built with Next.js and Shadcn UI",
 };
 
 export default function RootLayout({
@@ -23,11 +24,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <LayoutErrorBoundary>
+          <Layout>
+            {children}
+          </Layout>
+        </LayoutErrorBoundary>
       </body>
     </html>
   );
